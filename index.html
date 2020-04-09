@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+	<meta charset="UTF-8">
+	<title>Turtle</title>
 	<style>
 		body {
-			margin:0;
+			margin: 0;
 		}
+
 		iframe {
-			width:100%;
+			width: 100%;
 		}
 	</style>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script>
+		$.get("http://nekowei.xyz:443", function (data) {
+			console.log(data)
+		})
+	</script>
 </head>
+
 <body>
-    <iframe src="http://nekowei.xyz:2333"/>something wrong?</iframe>
+	<iframe src="http://nekowei.xyz:443">something wrong?</iframe>
 
 </body>
+
 </html>
